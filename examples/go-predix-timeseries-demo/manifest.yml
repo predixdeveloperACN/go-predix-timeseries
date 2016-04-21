@@ -1,0 +1,4 @@
+applications:
+- name: go-predix-timeseries-demo 
+  path: .
+  buildpack: go_buildpack

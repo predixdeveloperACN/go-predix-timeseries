@@ -1,0 +1,93 @@
+{
+	"ImportPath": "github.com/Altoros/go-predix-timeseries-demo",
+	"GoVersion": "go1.5.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/aggregation",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/api",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/datapoint",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/dataquality",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/filter",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/ingest",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/measurement",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/query",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/Altoros/go-predix-timeseries/tag",
+			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-community/go-cfenv",
+			"Comment": "v1.12-2-gb4bebec",
+			"Rev": "b4bebec47a425334d2a076cf99329464c9e611f3"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin",
+			"Comment": "v1.0rc1-219-g3d002e3",
+			"Rev": "3d002e382355cafc15d706b92899b1961d5b79e9"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "62e4364d64b32762febb61f2c88c0a29bc49a225"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "2dbddebb8266b93c5e6b119efb54e89043186f3f"
+		},
+		{
+			"ImportPath": "github.com/manucorporat/sse",
+			"Rev": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/mapstructure",
+			"Rev": "281073eb9eb092240d33ef253c404f1cca550309"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "35b06af0720201bc2f326773a80767387544f8c4"
+		},
+		{
+			"ImportPath": "golang.org/x/net/publicsuffix",
+			"Rev": "35b06af0720201bc2f326773a80767387544f8c4"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "b0e2337fe6ec0c637fa4f123268b972f334504eb"
+		},
+		{
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.17.1",
+			"Rev": "014792cf3e266caff1e916876be12282b33059e0"
+		},
+		{
+			"ImportPath": "gopkg.in/h2non/gentleman.v0",
+			"Comment": "0.1.3-18-gd6267c5",
+			"Rev": "d6267c58d55ae0f0b0e05ade80eef203740e3fd4"
+		}
+	]
+}
