@@ -1,46 +1,10 @@
 {
-	"ImportPath": "github.com/Altoros/go-predix-timeseries-demo",
-	"GoVersion": "go1.5.2",
+	"ImportPath": "github.com/Altoros/go-predix-timeseries/examples/go-predix-timeseries-demo",
+	"GoVersion": "go1.6.1",
 	"Packages": [
 		"./..."
 	],
 	"Deps": [
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/aggregation",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/api",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/datapoint",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/dataquality",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/filter",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/ingest",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/measurement",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/query",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
-		{
-			"ImportPath": "github.com/Altoros/go-predix-timeseries/tag",
-			"Rev": "279aae4b2c8018b14f50d29caa01cbc14f5f1828"
-		},
 		{
 			"ImportPath": "github.com/cloudfoundry-community/go-cfenv",
 			"Comment": "v1.12-2-gb4bebec",
