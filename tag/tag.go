@@ -40,6 +40,18 @@ func (t *Tag) AddDatapoint(measure measurement.Measurement, quality dataquality.
 	t.datapoints = append(t.datapoints, dp)
 }
 
+// Adds measurement to the tag with time
+func (t *Tag) AddDatapointWithTime(timeStamp time.Time, measure measurement.Measurement, quality dataquality.Quality) {
+	dp := datapoint.Datapoint{Measure: measure, Timestamp: timeStamp, Quality: quality}
+	t.datapoints = append(t.datapoints, dp)
+}
+
+// Adds measurement to the tag with unix time
+func (t *Tag) AddDatapointWithUnixTime(epoch int64, measure measurement.Measurement, quality dataquality.Quality) {
+	dp := datapoint.Datapoint{Measure: measure, Timestamp: time.Unix(0, epoch*int64(time.Millisecond)), Quality: quality}
+	t.datapoints = append(t.datapoints, dp)
+}
+
 // Sets an attribute for the tag
 func (t *Tag) SetAttribute(attribute, value string) error {
 	if CorrectNameRE.MatchString(attribute) && CorrectNameRE.MatchString(value) {
