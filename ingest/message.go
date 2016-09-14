@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Altoros/go-predix-timeseries/tag"
+	"github.com/predixdeveloperACN/go-predix-timeseries/tag"
 	"github.com/gorilla/websocket"
 )
 

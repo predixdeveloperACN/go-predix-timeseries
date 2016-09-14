@@ -1,8 +1,8 @@
 package query
 
 import (
-	"github.com/Altoros/go-predix-timeseries/aggregation"
-	"github.com/Altoros/go-predix-timeseries/filter"
+	"github.com/predixdeveloperACN/go-predix-timeseries/aggregation"
+	"github.com/predixdeveloperACN/go-predix-timeseries/filter"
 )
 
 type QueryTag interface {

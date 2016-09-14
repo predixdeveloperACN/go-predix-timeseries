@@ -1,7 +1,7 @@
 package measurement
 
 import (
-	"github.com/Altoros/go-predix-timeseries/filter"
+	"github.com/predixdeveloperACN/go-predix-timeseries/filter"
 )
 
 func condition(condition string, values ...Measurement) filter.Filter {
